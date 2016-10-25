@@ -40,8 +40,8 @@ public class MainActivity extends ActionBarActivity {
         scanButton.setOnClickListener(new ScanButtonClickListener());
         cameraButton = (Button) findViewById(R.id.cameraButton);
         cameraButton.setOnClickListener(new ScanButtonClickListener(ScanConstants.OPEN_CAMERA));
-        mediaButton = (Button) findViewById(R.id.mediaButton);
-        mediaButton.setOnClickListener(new ScanButtonClickListener(ScanConstants.OPEN_MEDIA));
+       // mediaButton = (Button) findViewById(R.id.mediaButton);
+     //   mediaButton.setOnClickListener(new ScanButtonClickListener(ScanConstants.OPEN_MEDIA));
         scannedImageView = (ImageView) findViewById(R.id.scannedImage);
     }
 

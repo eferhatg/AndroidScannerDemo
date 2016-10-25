@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
 
-    <HorizontalScrollView
+  <!--  <HorizontalScrollView
         android:id="@+id/topBar"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
                 android:text="B and W" />
         </LinearLayout>
 
-    </HorizontalScrollView>
+    </HorizontalScrollView>-->
 
     <Button
         android:id="@+id/doneButton"
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@id/doneButton"
-        android:layout_below="@id/topBar"
+
         android:layout_gravity="center"
         android:layout_margin="@dimen/scanPadding">
 

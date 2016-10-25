@@ -41,14 +41,14 @@ public class ResultFragment extends Fragment {
 
     private void init() {
         scannedImageView = (ImageView) view.findViewById(R.id.scannedImage);
-        originalButton = (Button) view.findViewById(R.id.original);
+/*        originalButton = (Button) view.findViewById(R.id.original);
         originalButton.setOnClickListener(new OriginalButtonClickListener());
         MagicColorButton = (Button) view.findViewById(R.id.magicColor);
         MagicColorButton.setOnClickListener(new MagicColorButtonClickListener());
         grayModeButton = (Button) view.findViewById(R.id.grayMode);
         grayModeButton.setOnClickListener(new GrayButtonClickListener());
         bwButton = (Button) view.findViewById(R.id.BWMode);
-        bwButton.setOnClickListener(new BWButtonClickListener());
+        bwButton.setOnClickListener(new BWButtonClickListener());*/
         Bitmap bitmap = getBitmap();
         setScannedImage(bitmap);
         doneButton = (Button) view.findViewById(R.id.doneButton);
